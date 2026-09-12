@@ -1,0 +1,19 @@
+{
+  "name": "forge-zero",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI prompt-generation engine that architects single-file HTML and full-stack applications for zero-cost, free-tier LLM API keys.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning server/index.js",
+    "dev": "node --no-warnings=ExperimentalWarning --watch server/index.js",
+    "test": "node --no-warnings=ExperimentalWarning --test \"tests/*.test.js\"",
+    "doctor": "node --no-warnings=ExperimentalWarning scripts/doctor.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

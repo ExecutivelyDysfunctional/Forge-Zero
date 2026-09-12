@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="forge">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Forge-Zero — a prompt engine that architects single-file HTML and full-stack applications for free-tier LLM API keys.">
+<title>Forge-Zero · prompt engine for free-tier builds</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ff7a18'/%3E%3Crect x='8' y='13' width='16' height='4' rx='2' fill='%230d0f13'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles/app.css">
+<script type="module" src="/src/main.js"></script>
+</head>
+<body>
+<div class="app">
+  <header class="topbar" id="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="brand-name">FORGE<b>·</b>ZERO</span>
+        <span class="brand-sub">prompt engine · free-tier builds</span>
+      </span>
+    </div>
+    <div id="topbar-extra" style="display:flex;align-items:center;gap:12px;flex:1;flex-wrap:wrap"></div>
+    <noscript><span style="color:#f0b53f;font:12px var(--mono)">Forge-Zero composes prompt packs in this page; enable JavaScript.</span></noscript>
+  </header>
+  <div class="body">
+    <aside class="rail" id="rail" aria-label="Brief editor"></aside>
+    <main class="center" id="center" aria-label="Prompt pack"></main>
+    <aside class="rail-right" id="rail-right" aria-label="Fit, warnings and keys"></aside>
+  </div>
+</div>
+</body>
+</html>
